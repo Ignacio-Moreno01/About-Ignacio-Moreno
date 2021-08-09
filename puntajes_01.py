@@ -31,5 +31,5 @@ def recuperar_puntajes(nombre_archivo):
 
 valores = [("Pepe", 108, "4:16"), ("Juana", 2315, "8:42")]
 guardar_puntajes("puntajes.txt", valores)
-r = recuperar_puntajes("puntajes.txt")
-print (r)
+puntajes = recuperar_puntajes("puntajes.txt")
+print (puntajes)
